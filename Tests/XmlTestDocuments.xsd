@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<xs:schema id="root" targetNamespace="http://tempuri.org/XmlTestDocuments.xsd" xmlns:mstns="http://tempuri.org/XmlTestDocuments.xsd" xmlns="http://tempuri.org/XmlTestDocuments.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="root" msdata:IsDataSet="true" msdata:EnforceConstraints="False">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="data">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="value" type="xs:string" minOccurs="0" msdata:Ordinal="1" />
+              <xs:element name="comment" type="xs:string" minOccurs="0" msdata:Ordinal="2" />
+            </xs:sequence>
+            <xs:attribute name="name" form="unqualified" type="xs:string" />
+            <xs:attribute name="type" form="unqualified" type="xs:string" />
+            <xs:attribute name="mimetype" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="resheader">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="value" type="xs:string" minOccurs="0" msdata:Ordinal="1" />
+            </xs:sequence>
+            <xs:attribute name="name" form="unqualified" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
