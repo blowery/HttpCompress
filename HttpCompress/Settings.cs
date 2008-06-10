@@ -28,6 +28,7 @@ namespace blowery.Web.HttpCompress {
       _compressionLevel = CompressionLevels.Default;
       _excludedTypes = new StringCollection();
       _excludedPaths = new StringCollection();
+      _excludedPaths.Add("WebResource.axd");
     }
 
     /// <summary>
@@ -98,6 +99,7 @@ namespace blowery.Web.HttpCompress {
     /// <param name="mimetype">The MimeType to check.  Can include wildcards like image/* or */xml.</param>
     /// <returns>true if the mime type passed in is excluded from compression, false otherwise</returns>
     public bool IsExcludedMimeType(string mimetype) {
+      if(mimetype == null) return false;
       return _excludedTypes.Contains(mimetype.ToLower());
     }
 
