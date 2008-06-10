@@ -28,7 +28,7 @@ namespace blowery.Web.HttpCompress {
       _compressionLevel = CompressionLevels.Default;
       _excludedTypes = new StringCollection();
       _excludedPaths = new StringCollection();
-      _excludedPaths.Add("WebResource.axd");
+      _excludedPaths.Add(".axd");
     }
 
     /// <summary>
