@@ -83,7 +83,7 @@ namespace blowery.Web.HttpCompress {
         }				
 
         string realPath = app.Request.Path.Remove(0, app.Request.ApplicationPath.Length);
-        if(realPath.StartsWith("/") { 
+        if(realPath.StartsWith("/")) { 
           realPath = realPath.Substring(1); 
         }
         if(settings.IsExcludedPath(realPath)){
