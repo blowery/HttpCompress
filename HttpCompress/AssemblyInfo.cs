@@ -33,14 +33,14 @@ using System.Reflection;
 // AssemblyInformationalVersion should be the version of the product that is including this
 //  assembly.  Again, if this assembly isn't being included in a "product", just make this 
 //  the same as the FileVersion and be done with it.  See pg 60 of Richter for more info.
-[assembly: AssemblyInformationalVersion("6.0")]
+[assembly: AssemblyInformationalVersion("7.0")]
 
 // Set the FileVersion, AssemblyVersion, FileDescription, and Comments fields
 // AssemblyFileVersion is stored in the Win32 version resource.  It's ignored by the CLR,
 //  we typically use it to store the build and revision bits every time a build
 //  is performed.  Unfortunately, the c# compiler doesn't do this automatically,
 //  so we'll have to work out another way to do it.
-[assembly: AssemblyFileVersion("6.0")]
+[assembly: AssemblyFileVersion("7.0")]
 
 // AssemblyVersion is the version used by the CLR as part of the strong name for
 //  an assembly.  You don't really want to mess with this unless you're
@@ -54,7 +54,7 @@ using System.Reflection;
 //   [assembly: AssemblyVersion("1.0.*.*")]
 //  as it breaks all the other assemblies that reference this one every time 
 //  you build the project.  
-[assembly: AssemblyVersion("6.0")]
+[assembly: AssemblyVersion("7.0")]
 
 // Title is just for inspection utilities and isn't really used for much
 //  Generally just set this to the name of the file containing the 

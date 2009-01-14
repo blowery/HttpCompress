@@ -1,6 +1,6 @@
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "example\Example.csproj", "{621AAC3C-38EC-4F70-80D3-68DE4829AA33}"
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C# Express 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{621AAC3C-38EC-4F70-80D3-68DE4829AA33}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fetch", "Fetch\Fetch.csproj", "{3EFC307A-7AA7-4566-8517-BD80263C2830}"
 EndProject
